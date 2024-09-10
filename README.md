@@ -25,10 +25,10 @@ The project is designed to do regression testing and catch issues .**
 
   
 **2. Assumption**
-**Stable Internet Connection**
-**Valid Test Credentials:**  for e.g  Name: Sandeep   Email: sandeepsaroj72040@gmail.com  Password: Sandeep@12345
-**Invalid Test Credentials**
-**Cross-browser Compatibility:**
+**a. Stable Internet Connection**
+**b. Valid Test Credentials:**  for e.g  Name: Sandeep   Email: sandeepsaroj72040@gmail.com  Password: Sandeep@12345
+**c. Invalid Test Credentials**
+**d. Cross-browser Compatibility:**
 It is assumed that the page elements (e.g., text fields, buttons, links) do not change their attributes (like XPaths or IDs) frequently.
 
 
