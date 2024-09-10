@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\sande\AppData\Local\Temp\testng-eclipse-262678547\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.IV_SignUpValidation" class="method navigator-link" hash-for-method="SignUpValidation1">SignUpValidation1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.IV_SignUpValidation" class="method navigator-link" hash-for-method="SignUpValidation2">SignUpValidation2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.VII_UploadCV" class="method navigator-link" hash-for-method="UploadFile">UploadFile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.VIIII_Logout" class="method navigator-link" hash-for-method="allFeatures">allFeatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.VIII_SeeEachFeature" class="method navigator-link" hash-for-method="allFeatures">allFeatures</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.VI_LoginValidation" class="method navigator-link" hash-for-method="loginValidation1">loginValidation1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.VI_LoginValidation" class="method navigator-link" hash-for-method="loginValidation2">loginValidation2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.VI_LoginValidation" class="method navigator-link" hash-for-method="loginValidation3">loginValidation3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.VI_LoginValidation" class="method navigator-link" hash-for-method="loginValidation4">loginValidation4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.VI_LoginValidation" class="method navigator-link" hash-for-method="loginValidation5">loginValidation5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.VI_LoginValidation" class="method navigator-link" hash-for-method="loginValidation6">loginValidation6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.V_LoginPage" class="method navigator-link" hash-for-method="signInTextfield">signInTextfield</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.III_SignUPPage" class="method navigator-link" hash-for-method="signUpTextfields">signUpTextfields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.IV_SignUpValidation" class="method navigator-link" hash-for-method="signUpValidation10">signUpValidation10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.IV_SignUpValidation" class="method navigator-link" hash-for-method="signUpValidation3">signUpValidation3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.IV_SignUpValidation" class="method navigator-link" hash-for-method="signUpValidation4">signUpValidation4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.IV_SignUpValidation" class="method navigator-link" hash-for-method="signUpValidation5">signUpValidation5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.IV_SignUpValidation" class="method navigator-link" hash-for-method="signUpValidation6">signUpValidation6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.IV_SignUpValidation" class="method navigator-link" hash-for-method="signUpValidation7">signUpValidation7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.IV_SignUpValidation" class="method navigator-link" hash-for-method="signUpValidation8">signUpValidation8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.IV_SignUpValidation" class="method navigator-link" hash-for-method="signUpValidation9">signUpValidation9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="assessment_GIC.III_SignUPPage" class="method navigator-link" hash-for-method="webPageTitle">webPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">assessment_GIC.III_SignUPPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpTextfields">
+                  </a> <!-- signUpTextfields -->
+                  <span class="method-name">signUpTextfields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webPageTitle">
+                  </a> <!-- webPageTitle -->
+                  <span class="method-name">webPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">assessment_GIC.IV_SignUpValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpValidation1">
+                  </a> <!-- SignUpValidation1 -->
+                  <span class="method-name">SignUpValidation1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignUpValidation2">
+                  </a> <!-- SignUpValidation2 -->
+                  <span class="method-name">SignUpValidation2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpValidation10">
+                  </a> <!-- signUpValidation10 -->
+                  <span class="method-name">signUpValidation10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpValidation3">
+                  </a> <!-- signUpValidation3 -->
+                  <span class="method-name">signUpValidation3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpValidation4">
+                  </a> <!-- signUpValidation4 -->
+                  <span class="method-name">signUpValidation4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpValidation5">
+                  </a> <!-- signUpValidation5 -->
+                  <span class="method-name">signUpValidation5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpValidation6">
+                  </a> <!-- signUpValidation6 -->
+                  <span class="method-name">signUpValidation6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpValidation7">
+                  </a> <!-- signUpValidation7 -->
+                  <span class="method-name">signUpValidation7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpValidation8">
+                  </a> <!-- signUpValidation8 -->
+                  <span class="method-name">signUpValidation8</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpValidation9">
+                  </a> <!-- signUpValidation9 -->
+                  <span class="method-name">signUpValidation9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">assessment_GIC.V_LoginPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInTextfield">
+                  </a> <!-- signInTextfield -->
+                  <span class="method-name">signInTextfield</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">assessment_GIC.VIII_SeeEachFeature</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="allFeatures">
+                  </a> <!-- allFeatures -->
+                  <span class="method-name">allFeatures</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">assessment_GIC.VIIII_Logout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="allFeatures">
+                  </a> <!-- allFeatures -->
+                  <span class="method-name">allFeatures</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">assessment_GIC.VII_UploadCV</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UploadFile">
+                  </a> <!-- UploadFile -->
+                  <span class="method-name">UploadFile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">assessment_GIC.VI_LoginValidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginValidation1">
+                  </a> <!-- loginValidation1 -->
+                  <span class="method-name">loginValidation1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginValidation2">
+                  </a> <!-- loginValidation2 -->
+                  <span class="method-name">loginValidation2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginValidation3">
+                  </a> <!-- loginValidation3 -->
+                  <span class="method-name">loginValidation3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginValidation4">
+                  </a> <!-- loginValidation4 -->
+                  <span class="method-name">loginValidation4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginValidation5">
+                  </a> <!-- loginValidation5 -->
+                  <span class="method-name">loginValidation5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginValidation6">
+                  </a> <!-- loginValidation6 -->
+                  <span class="method-name">loginValidation6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sande\AppData\Local\Temp\testng-eclipse-262678547\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;assessment_GIC.III_SignUPPage&quot;/&gt;
+      &lt;class name=&quot;assessment_GIC.VIIII_Logout&quot;/&gt;
+      &lt;class name=&quot;assessment_GIC.VII_UploadCV&quot;/&gt;
+      &lt;class name=&quot;assessment_GIC.VI_LoginValidation&quot;/&gt;
+      &lt;class name=&quot;assessment_GIC.V_LoginPage&quot;/&gt;
+      &lt;class name=&quot;assessment_GIC.VIII_SeeEachFeature&quot;/&gt;
+      &lt;class name=&quot;assessment_GIC.I_BaseClass&quot;/&gt;
+      &lt;class name=&quot;assessment_GIC.IV_SignUpValidation&quot;/&gt;
+      &lt;class name=&quot;assessment_GIC.II_GetScreenShotClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'allFeatures')
+data.setCell(0, 2, 'assessment_GIC.VIII_SeeEachFeature')
+data.setCell(0, 3, 45251);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'allFeatures')
+data.setCell(1, 2, 'assessment_GIC.VIIII_Logout')
+data.setCell(1, 3, 8520);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'UploadFile')
+data.setCell(2, 2, 'assessment_GIC.VII_UploadCV')
+data.setCell(2, 3, 5502);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'signUpValidation8')
+data.setCell(3, 2, 'assessment_GIC.IV_SignUpValidation')
+data.setCell(3, 3, 2911);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'signUpValidation9')
+data.setCell(4, 2, 'assessment_GIC.IV_SignUpValidation')
+data.setCell(4, 3, 2777);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SignUpValidation1')
+data.setCell(5, 2, 'assessment_GIC.IV_SignUpValidation')
+data.setCell(5, 3, 2697);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'signUpValidation4')
+data.setCell(6, 2, 'assessment_GIC.IV_SignUpValidation')
+data.setCell(6, 3, 2689);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'signUpValidation10')
+data.setCell(7, 2, 'assessment_GIC.IV_SignUpValidation')
+data.setCell(7, 3, 2686);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'signUpValidation7')
+data.setCell(8, 2, 'assessment_GIC.IV_SignUpValidation')
+data.setCell(8, 3, 2677);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'signUpValidation6')
+data.setCell(9, 2, 'assessment_GIC.IV_SignUpValidation')
+data.setCell(9, 3, 2653);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'signUpValidation5')
+data.setCell(10, 2, 'assessment_GIC.IV_SignUpValidation')
+data.setCell(10, 3, 2625);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'signUpValidation3')
+data.setCell(11, 2, 'assessment_GIC.IV_SignUpValidation')
+data.setCell(11, 3, 2579);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'SignUpValidation2')
+data.setCell(12, 2, 'assessment_GIC.IV_SignUpValidation')
+data.setCell(12, 3, 2577);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginValidation1')
+data.setCell(13, 2, 'assessment_GIC.VI_LoginValidation')
+data.setCell(13, 3, 1247);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginValidation6')
+data.setCell(14, 2, 'assessment_GIC.VI_LoginValidation')
+data.setCell(14, 3, 857);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginValidation5')
+data.setCell(15, 2, 'assessment_GIC.VI_LoginValidation')
+data.setCell(15, 3, 800);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginValidation2')
+data.setCell(16, 2, 'assessment_GIC.VI_LoginValidation')
+data.setCell(16, 3, 790);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'loginValidation4')
+data.setCell(17, 2, 'assessment_GIC.VI_LoginValidation')
+data.setCell(17, 3, 727);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'loginValidation3')
+data.setCell(18, 2, 'assessment_GIC.VI_LoginValidation')
+data.setCell(18, 3, 327);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'signUpTextfields')
+data.setCell(19, 2, 'assessment_GIC.III_SignUPPage')
+data.setCell(19, 3, 288);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'signInTextfield')
+data.setCell(20, 2, 'assessment_GIC.V_LoginPage')
+data.setCell(20, 3, 49);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'webPageTitle')
+data.setCell(21, 2, 'assessment_GIC.III_SignUPPage')
+data.setCell(21, 3, 11);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signUpValidation6</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SignUp Failed ErrorMessage = Email: Must be a valid email address.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">allFeatures</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Successfully Logout </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signUpValidation3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SignUp Failed ErrorMessage = Email: This field is required.
+Password: This field is required.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginValidation3</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login Failed ErrorMessage = Email: This field is required.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpValidation2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SignUp Failed ErrorMessage = Email: This field is required.
+Password: This field is required.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signUpValidation7</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SignUp Failed ErrorMessage = Email: Email already exists.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginValidation4</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login Failed ErrorMessage = Please enter a correct username and password. Note that both fields may be case-sensitive.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginValidation6</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login Failed ErrorMessage = Please enter a correct username and password. Note that both fields may be case-sensitive.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signUpValidation10</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SignUp Failed ErrorMessage = Email: Must be a valid email address.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signUpValidation8</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SignUp Failed ErrorMessage = Email: Must be a valid email address.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginValidation5</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login Failed ErrorMessage = Please enter a correct username and password. Note that both fields may be case-sensitive.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signUpValidation9</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SignUp Failed ErrorMessage = Email: Email already exists.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignUpValidation1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SignUp Failed ErrorMessage = Email: Email already exists.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signUpTextfields</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Name TextField is Displayed</span>
+                <span class="reporter-method-output">Email TextField is Displayed</span>
+                <span class="reporter-method-output">Password TextField is Displayed</span>
+                <span class="reporter-method-output">SignUp button is Enabled</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signInTextfield</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Email TextField is Displayed</span>
+                <span class="reporter-method-output">Password TextField is Displayed</span>
+                <span class="reporter-method-output">Login button is Enabled</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signUpValidation5</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SignUp Failed ErrorMessage = Email: Must be a valid email address.
+Password: This password is too short. It must contain at least 8 characters. This password is too common. This password is entirely numeric.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginValidation1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login successful for Email: sandeepsaroj72040@gmail.com and password: Sandeep@12345</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">signUpValidation4</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SignUp Failed ErrorMessage = Email: Email already exists.
+Password: This field is required.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginValidation2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login Failed ErrorMessage = Please enter a correct username and password. Note that both fields may be case-sensitive.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">webPageTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Title of WebPage: Login | Germany Is Calling</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">assessment_GIC.III_SignUPPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">webPageTitle</span>
+                <span class="method-start">2774 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">2786 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">8040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpTextfields</span>
+                <span class="method-start">10098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">10387 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">assessment_GIC.VIIII_Logout</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">15598 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">allFeatures</span>
+                <span class="method-start">17724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">26245 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">assessment_GIC.VII_UploadCV</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">31471 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UploadFile</span>
+                <span class="method-start">33605 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">39107 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">assessment_GIC.VI_LoginValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">44408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginValidation1</span>
+                <span class="method-start">46419 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">47667 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">52879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginValidation2</span>
+                <span class="method-start">54842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">55632 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">60852 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginValidation3</span>
+                <span class="method-start">62946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">63274 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">68484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginValidation4</span>
+                <span class="method-start">70487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">71215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">76475 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginValidation5</span>
+                <span class="method-start">78467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">79267 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">84477 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginValidation6</span>
+                <span class="method-start">86603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">87461 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">assessment_GIC.V_LoginPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">92685 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signInTextfield</span>
+                <span class="method-start">94753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">94802 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">assessment_GIC.VIII_SeeEachFeature</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">100033 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">allFeatures</span>
+                <span class="method-start">101987 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">147238 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">assessment_GIC.IV_SignUpValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">152500 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SignUpValidation1</span>
+                <span class="method-start">154574 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">157271 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">162499 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SignUpValidation2</span>
+                <span class="method-start">164519 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">167096 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">172334 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpValidation3</span>
+                <span class="method-start">174275 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">176854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">182058 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpValidation4</span>
+                <span class="method-start">184148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">186838 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">192057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpValidation5</span>
+                <span class="method-start">194123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">196749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">201989 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpValidation6</span>
+                <span class="method-start">203891 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">206544 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">211777 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpValidation7</span>
+                <span class="method-start">214102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">216780 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">222047 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpValidation8</span>
+                <span class="method-start">224008 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">226920 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">232122 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpValidation9</span>
+                <span class="method-start">234138 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">236916 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">242148 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signUpValidation10</span>
+                <span class="method-start">244196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">246882 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

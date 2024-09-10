@@ -1,0 +1,338 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 10 15:50:29 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>252 seconds (252100 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='assessment_GIC.IV_SignUpValidation.signUpValidation6()'><b>signUpValidation6</b><br>Test class: assessment_GIC.IV_SignUpValidation<br/>
+<a href="#Output-91273747" onClick='toggleBox("Output-91273747", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-91273747" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-91273747">
+SignUp Failed ErrorMessage = Email: Must be a valid email address.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>assessment_GIC.IV_SignUpValidation@45b4c3a9</td></tr>
+<tr>
+<td title='assessment_GIC.VIIII_Logout.allFeatures()'><b>allFeatures</b><br>Test class: assessment_GIC.VIIII_Logout<br/>
+<a href="#Output-623131585" onClick='toggleBox("Output-623131585", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-623131585" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-623131585">
+Successfully Logout <br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>assessment_GIC.VIIII_Logout@65d09a04</td></tr>
+<tr>
+<td title='assessment_GIC.IV_SignUpValidation.signUpValidation3()'><b>signUpValidation3</b><br>Test class: assessment_GIC.IV_SignUpValidation<br/>
+<a href="#Output-1620643420" onClick='toggleBox("Output-1620643420", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1620643420" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1620643420">
+SignUp Failed ErrorMessage = Email: This field is required.
+Password: This field is required.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>assessment_GIC.IV_SignUpValidation@45b4c3a9</td></tr>
+<tr>
+<td title='assessment_GIC.VI_LoginValidation.loginValidation3()'><b>loginValidation3</b><br>Test class: assessment_GIC.VI_LoginValidation<br/>
+<a href="#Output-499310212" onClick='toggleBox("Output-499310212", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-499310212" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-499310212">
+Login Failed ErrorMessage = Email: This field is required.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>assessment_GIC.VI_LoginValidation@75db5df9</td></tr>
+<tr>
+<td title='assessment_GIC.IV_SignUpValidation.SignUpValidation2()'><b>SignUpValidation2</b><br>Test class: assessment_GIC.IV_SignUpValidation<br/>
+<a href="#Output-1907767760" onClick='toggleBox("Output-1907767760", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1907767760" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1907767760">
+SignUp Failed ErrorMessage = Email: This field is required.
+Password: This field is required.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>assessment_GIC.IV_SignUpValidation@45b4c3a9</td></tr>
+<tr>
+<td title='assessment_GIC.VIII_SeeEachFeature.allFeatures()'><b>allFeatures</b><br>Test class: assessment_GIC.VIII_SeeEachFeature</td>
+<td></td>
+<td>45</td>
+<td>assessment_GIC.VIII_SeeEachFeature@1190200a</td></tr>
+<tr>
+<td title='assessment_GIC.IV_SignUpValidation.signUpValidation7()'><b>signUpValidation7</b><br>Test class: assessment_GIC.IV_SignUpValidation<br/>
+<a href="#Output-664232848" onClick='toggleBox("Output-664232848", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-664232848" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-664232848">
+SignUp Failed ErrorMessage = Email: Email already exists.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>assessment_GIC.IV_SignUpValidation@45b4c3a9</td></tr>
+<tr>
+<td title='assessment_GIC.VI_LoginValidation.loginValidation4()'><b>loginValidation4</b><br>Test class: assessment_GIC.VI_LoginValidation<br/>
+<a href="#Output-203401172" onClick='toggleBox("Output-203401172", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-203401172" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-203401172">
+Login Failed ErrorMessage = Please enter a correct username and password. Note that both fields may be case-sensitive.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>assessment_GIC.VI_LoginValidation@75db5df9</td></tr>
+<tr>
+<td title='assessment_GIC.VI_LoginValidation.loginValidation6()'><b>loginValidation6</b><br>Test class: assessment_GIC.VI_LoginValidation<br/>
+<a href="#Output-1715602761" onClick='toggleBox("Output-1715602761", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1715602761" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1715602761">
+Login Failed ErrorMessage = Please enter a correct username and password. Note that both fields may be case-sensitive.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>assessment_GIC.VI_LoginValidation@75db5df9</td></tr>
+<tr>
+<td title='assessment_GIC.IV_SignUpValidation.signUpValidation10()'><b>signUpValidation10</b><br>Test class: assessment_GIC.IV_SignUpValidation<br/>
+<a href="#Output-490218" onClick='toggleBox("Output-490218", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-490218" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-490218">
+SignUp Failed ErrorMessage = Email: Must be a valid email address.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>assessment_GIC.IV_SignUpValidation@45b4c3a9</td></tr>
+<tr>
+<td title='assessment_GIC.IV_SignUpValidation.signUpValidation8()'><b>signUpValidation8</b><br>Test class: assessment_GIC.IV_SignUpValidation<br/>
+<a href="#Output-1824931880" onClick='toggleBox("Output-1824931880", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1824931880" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1824931880">
+SignUp Failed ErrorMessage = Email: Must be a valid email address.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>assessment_GIC.IV_SignUpValidation@45b4c3a9</td></tr>
+<tr>
+<td title='assessment_GIC.VI_LoginValidation.loginValidation5()'><b>loginValidation5</b><br>Test class: assessment_GIC.VI_LoginValidation<br/>
+<a href="#Output-626941486" onClick='toggleBox("Output-626941486", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-626941486" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-626941486">
+Login Failed ErrorMessage = Please enter a correct username and password. Note that both fields may be case-sensitive.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>assessment_GIC.VI_LoginValidation@75db5df9</td></tr>
+<tr>
+<td title='assessment_GIC.IV_SignUpValidation.signUpValidation9()'><b>signUpValidation9</b><br>Test class: assessment_GIC.IV_SignUpValidation<br/>
+<a href="#Output-339734447" onClick='toggleBox("Output-339734447", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-339734447" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-339734447">
+SignUp Failed ErrorMessage = Email: Email already exists.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>assessment_GIC.IV_SignUpValidation@45b4c3a9</td></tr>
+<tr>
+<td title='assessment_GIC.IV_SignUpValidation.SignUpValidation1()'><b>SignUpValidation1</b><br>Test class: assessment_GIC.IV_SignUpValidation<br/>
+<a href="#Output-1694804085" onClick='toggleBox("Output-1694804085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1694804085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1694804085">
+SignUp Failed ErrorMessage = Email: Email already exists.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>assessment_GIC.IV_SignUpValidation@45b4c3a9</td></tr>
+<tr>
+<td title='assessment_GIC.VII_UploadCV.UploadFile()'><b>UploadFile</b><br>Test class: assessment_GIC.VII_UploadCV</td>
+<td></td>
+<td>5</td>
+<td>assessment_GIC.VII_UploadCV@33c911a1</td></tr>
+<tr>
+<td title='assessment_GIC.III_SignUPPage.signUpTextfields()'><b>signUpTextfields</b><br>Test class: assessment_GIC.III_SignUPPage<br/>
+<a href="#Output-237297104" onClick='toggleBox("Output-237297104", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-237297104" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-237297104">
+Name TextField is Displayed<br/>
+Email TextField is Displayed<br/>
+Password TextField is Displayed<br/>
+SignUp button is Enabled<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>assessment_GIC.III_SignUPPage@544fa968</td></tr>
+<tr>
+<td title='assessment_GIC.V_LoginPage.signInTextfield()'><b>signInTextfield</b><br>Test class: assessment_GIC.V_LoginPage<br/>
+<a href="#Output-554146322" onClick='toggleBox("Output-554146322", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-554146322" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-554146322">
+Email TextField is Displayed<br/>
+Password TextField is Displayed<br/>
+Login button is Enabled<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>assessment_GIC.V_LoginPage@707194ba</td></tr>
+<tr>
+<td title='assessment_GIC.IV_SignUpValidation.signUpValidation5()'><b>signUpValidation5</b><br>Test class: assessment_GIC.IV_SignUpValidation<br/>
+<a href="#Output-1021082377" onClick='toggleBox("Output-1021082377", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1021082377" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1021082377">
+SignUp Failed ErrorMessage = Email: Must be a valid email address.
+Password: This password is too short. It must contain at least 8 characters. This password is too common. This password is entirely numeric.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>assessment_GIC.IV_SignUpValidation@45b4c3a9</td></tr>
+<tr>
+<td title='assessment_GIC.VI_LoginValidation.loginValidation1()'><b>loginValidation1</b><br>Test class: assessment_GIC.VI_LoginValidation<br/>
+<a href="#Output-1204178174" onClick='toggleBox("Output-1204178174", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1204178174" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1204178174">
+Login successful for Email: sandeepsaroj72040@gmail.com and password: Sandeep@12345<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>assessment_GIC.VI_LoginValidation@75db5df9</td></tr>
+<tr>
+<td title='assessment_GIC.IV_SignUpValidation.signUpValidation4()'><b>signUpValidation4</b><br>Test class: assessment_GIC.IV_SignUpValidation<br/>
+<a href="#Output-1026134931" onClick='toggleBox("Output-1026134931", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1026134931" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1026134931">
+SignUp Failed ErrorMessage = Email: Email already exists.
+Password: This field is required.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>assessment_GIC.IV_SignUpValidation@45b4c3a9</td></tr>
+<tr>
+<td title='assessment_GIC.VI_LoginValidation.loginValidation2()'><b>loginValidation2</b><br>Test class: assessment_GIC.VI_LoginValidation<br/>
+<a href="#Output-1374432753" onClick='toggleBox("Output-1374432753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1374432753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1374432753">
+Login Failed ErrorMessage = Please enter a correct username and password. Note that both fields may be case-sensitive.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>assessment_GIC.VI_LoginValidation@75db5df9</td></tr>
+<tr>
+<td title='assessment_GIC.III_SignUPPage.webPageTitle()'><b>webPageTitle</b><br>Test class: assessment_GIC.III_SignUPPage<br/>
+<a href="#Output-407997647" onClick='toggleBox("Output-407997647", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-407997647" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-407997647">
+Title of WebPage: Login | Germany Is Calling<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>assessment_GIC.III_SignUPPage@544fa968</td></tr>
+</table><p>
+</body>
+</html>
